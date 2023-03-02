@@ -181,6 +181,7 @@ Overall Summary of expectation:
 The overall expectation of this project is to develop a robust predictive model for the 10-year risk of future coronary heart disease in the Framingham cohort using machine learning techniques and clinical/demographic features. The project aims to perform feature selection, dimensionality reduction, ensemble learning, and deep learning techniques to develop and compare different machine learning models for predicting CHD risk. The project also aims to analyze the importance of clinical and demographic features in the predictive models. The final output is expected to be a model that accurately predicts the risk of CHD in individuals, enabling clinicians to identify those at high risk and implement preventive measures. Additionally, statistical analyses such as descriptive statistics, correlation analysis, logistic regression, and others will be performed on the dataset to gain insights into the relationships between variables and to evaluate the performance of the predictive models. The goal of this project is to contribute to the development of more effective and efficient methods for predicting and preventing coronary heart disease.
 
 References
+
 Khan, M.S., et al. (2021). Coronary Heart Disease Risk Prediction Using Machine Learning Algorithms: A Review. Journal of Medical Systems, 45(3), 1-18.
 
 Firdaus, S. (2019). Predicting the Risk of Coronary Heart Disease Using Machine Learning Techniques. International Journal of Scientific Research in Computer Science, Engineering and Information Technology, 4(4), 39-47.
