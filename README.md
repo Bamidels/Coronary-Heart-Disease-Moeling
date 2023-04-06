@@ -2,11 +2,39 @@
 
 Introduction and Background:
 
-Coronary heart disease (CHD) is a major public health issue and a leading cause of death worldwide. Accurate and reliable prediction of CHD risk is essential for early diagnosis and treatment of this disease. One way to identify the risk is by building a robust predictive model that uses various clinical and demographic features. The Framingham Heart Study is an ongoing cardiovascular study that has been conducted on the residents of Framingham, Massachusetts, since 1948. The dataset from this study has been used extensively for the development and validation of risk prediction models for CHD. In this project, we aim to build a robust predictive model for ten-year CHD risk in the Framingham cohort using an integrated approach that combines feature selection, dimensionality reduction, ensemble learning, and deep learning techniques.
+Introduction
 
-Problem Statement and Aims:
+Coronary Heart Disease (CHD) is a prevalent and serious public health issue worldwide, with high morbidity and mortality rates. According to the World Health Organization (WHO), CHD is the leading cause of death globally, accounting for 17.9 million deaths in 2016 (WHO, 2021). Early detection and prediction of CHD can aid in the development of personalized interventions and prevention strategies, potentially reducing the burden of the disease. Machine learning techniques have shown great potential in predicting CHD risk and identifying high-risk individuals. These techniques allow for the analysis of large and complex datasets to identify patterns and associations that can predict outcomes such as CHD risk. 
+Previous studies have explored the use of machine learning techniques for CHD risk prediction, and have shown promising results (Almutairi et al., 2019; Yang et al., 2021). The use of machine learning models for CHD risk prediction is especially crucial due to the complexity of CHD risk factors, which can be influenced by various demographic, behavioral, and medical risk factors.
+The Framingham Heart Study is a longitudinal study that has contributed significantly to our understanding of CHD risk factors. The study has collected clinical and demographic data on thousands of participants over several decades. This dataset provides a rich source of information for predictive modeling of CHD risk using machine learning techniques.
+The data set contains information on demographic, behavioral, and medical risk factors for coronary heart disease (CHD) in a cohort of participants. The data set includes 4,240 observations and 16 variables, including age, sex, smoking status, blood pressure, cholesterol levels, and diabetes status. The target variable is the CHD, which is binary with a value of 1 indicating the presence of CHD and 0 indicating the absence of CHD.
 
-The aim of this project is to develop a classification model that can accurately predict an individual's ten-year risk of developing coronary heart disease (CHD) based on their clinical and demographic features. The project will use various techniques, including feature selection, dimensionality reduction, ensemble learning, and deep learning methods, to build a robust predictive model that incorporates important clinical and demographic features to accurately predict CHD risk. The main problem addressed by this project is the need for accurate prediction of CHD risk in the Framingham cohort, and the project will compare different machine learning models, including deep learning techniques like CNNs, LSTMs, autoencoders, and DBNs. Additionally, the project aims to analyze the importance of clinical and demographic features in the predictive models. Ultimately, the goal is to provide clinicians with a tool to identify individuals at high risk of CHD and implement preventive measures to reduce the risk of developing this disease.
+The Framingham Heart Study dataset is widely used in research on CHD risk prediction and has been cited in numerous studies on the topic. Previous studies have also utilized this dataset for developing and evaluating CHD risk prediction models. For instance, D'Agostino et al. (2008) developed the Framingham Risk Score, a widely used tool for predicting the 10-year risk of CHD. In addition, Goff et al. (2014) used the Framingham Heart Study dataset to develop the 2013 ACC/AHA Guideline on the Assessment of Cardiovascular Risk.
+
+The objective of this study is to develop and compare machine learning models for predicting the occurrence of CHD in the Framingham Cohort using clinical and demographic features. This study aims to provide insight into the potential of deep learning techniques in CHD risk prediction and to identify the best performing model for predicting CHD risk.
+
+Background
+
+CHD is a multifactorial disease that arises from a combination of genetic and environmental factors. The Framingham Heart Study, initiated in 1948, has been instrumental in identifying risk factors associated with CHD. The study has collected clinical and demographic data on participants over a period of several decades. Machine learning techniques have been increasingly used in recent years to predict CHD risk and have shown promising results in improving accuracy and reducing false positives.
+Another study by Yang et al. (2021) used a gradient boosting machine algorithm to predict 10-year CHD risk in the Framingham Cohort. The study incorporated multiple risk factors, including age, sex, smoking status, blood pressure, and cholesterol levels, and achieved an AUC of 0.821.
+
+Despite these promising results, there is still a need for further research to explore the potential of machine learning techniques in CHD risk prediction. Machine learning models have the potential to identify novel risk factors and provide personalized risk assessments, which can aid in the development of targeted prevention strategies and improve patient outcomes.
+
+
+
+Problem Statement
+The main challenge in predicting CHD risk lies in identifying individuals who are at high risk of developing the disease but do not exhibit any symptoms. Traditional methods of risk prediction based on clinical and demographic features have limitations in terms of accuracy and sensitivity. Machine learning techniques offer a promising solution to this challenge by utilizing complex algorithms to identify patterns and predict risk more accurately.
+Furthermore, there is a need for models that can predict CHD risk in a more detailed manner by applying feature selection to understand how these features influences CHD. Individual risk factors such as age, sex, and smoking status have been shown to impact CHD risk differently for different individuals (Lloyd Jones et al., 2010). Therefore, the development of personalized risk prediction models can aid in identifying high-risk individuals who would benefit from targeted interventions and prevention strategies. 
+
+Aims
+The main objective of this study is to assess the potential of machine learning techniques and feature selection identified through deep learning methods in improving the accuracy of CHD risk prediction. The study aims to develop and compare different machine learning models for predicting the risk of CHD in the Framingham Cohort and identify the most accurate model along with its associated clinical and demographic features. Through the evaluation of various machine learning algorithms and the identified features from deep learning methods, this study aims to contribute to the development of more accurate and reliable CHD risk prediction models.
+Assumptions
+The study assumes that the data collected from the Framingham Cohort is a representative sample of the general population in terms of CHD risk factors. The study also assumes that the selected clinical and demographic features are the most important predictors of CHD risk.
+Architecture assumptions: These assumptions relate to the structure of the neural network models used, such as the number of layers, the number of neurons in each layer, the type of activation functions used, and the type of optimization algorithm used during training.
+
+Data assumptions: These assumptions relate to the quality and characteristics of the data used to train and test the deep learning models, such as the size and distribution of the data set, the quality and completeness of the data, and the suitability of the selected features for the prediction task.
+
+
 
 
 Related Research Papers:
