@@ -1,4 +1,4 @@
-# Coronary-Heart-Disease-Predictive-Modeling
+# A Deep Learning Approach for Improved Prediction of Coronary Heart Disease Risk
 
 Introduction and Background:
 
